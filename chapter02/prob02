@@ -1,0 +1,8 @@
+Haskell provides a standard function, "last :: [a] -> a", that returns the last
+element of a list. From reading the type alone, what are the possible valid
+behaviors (ommitting crashes and infinite loops) that this function could have?
+What are a few things this function clearly cannot do?
+
+Based off the type alone, 'last' could return any element of a list. For
+example, 'head' has the same type signature. It could not return another list
+or an element that is of a different type than those in the input list
